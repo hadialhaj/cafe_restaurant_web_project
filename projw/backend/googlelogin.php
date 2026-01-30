@@ -8,10 +8,14 @@ $db_name = 'shopdb';
 
 $google_client_id = '919553337092-6ln4pa52t229f09nn8d0224g6l4fbbjb.apps.googleusercontent.com';
 
-// Connect to database
-$conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
-if ($conn->connect_error) {
-    die("Database connection failed. Check your credentials.");
+try {
+    // Connect to database
+    $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
+    if ($conn->connect_error) {
+        die("Database connection failed. Check your credentials.");
+    }
+} catch (mysqli_sql_exception $e) {
+    die("Database connection failed: " . $e->getMessage() . ". Make sure the MySQL server is running and accessible.");
 }
 
 error_log("POST data: " . print_r($_POST, true));

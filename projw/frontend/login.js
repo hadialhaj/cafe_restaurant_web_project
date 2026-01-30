@@ -26,3 +26,6 @@ function validationl() {
     return isValid;
 }
 
+function logout(){
+    window.location.href = "../backend/logout.php";
+}
