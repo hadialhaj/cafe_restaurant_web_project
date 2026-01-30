@@ -7,7 +7,7 @@ Built using **HTML, CSS, JavaScript, PHP**, and **MySQL**.
 
 ## 📌 Features
 
-- 🔐 User Authentication (Register / Login )
+- 🔐 User Authentication (Register / Login/sign in and login by goolgle )
 - 🛒 Shopping Cart system
 - 📦 Order placement and checkout
 - 🧑‍💻 Frontend & Backend separation
