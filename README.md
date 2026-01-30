@@ -52,6 +52,13 @@ projw/
    ├── login.php
    ├── signup.php
    └── checkout.php
-### 📺 **Preview the Website**
+---
+
+## 🎥 **Preview the Website**
+
 A video walkthrough of the application's features is available:
-[View Video on OneDrive](https://1drv.ms/v/c/cd11a23ff8c55d39/IQBlA7fLvA-GQ5nknaQUOh97AYvqDOADZG5xOF3MzMThGXY?e=Odvwve)
+
+[![Watch the Demo](https://img.shields.io/badge/▶️-Watch_Video_Demo-blue)](https://1drv.ms/v/c/d11a23ff8c55d39/IQB1A7fLvA-GQ5nkaQUOh97AYVqDOADZG5xOF3MzMThGXY?e=0dvwe)
+
+*Click the button above to view the demo video on OneDrive.*
+*Note: This link may require a Microsoft account login.*
