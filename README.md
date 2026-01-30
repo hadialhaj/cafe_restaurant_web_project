@@ -32,6 +32,15 @@ Built using **HTML, CSS, JavaScript, PHP**, and **MySQL**.
 - XAMPP / WAMP (Apache + MySQL)
 
 ---
+## 🎬 Preview the Website
+
+**Watch the full video demo here:** 👇
+
+[🎥 Click Here to Watch the Demo Video](https://1drv.ms/v/c/d11a23ff8c55d39/IQB1A7fLvA-GQ5nkaQUOh97AYVqDOADZG5xOF3MzMThGXY?e=0dvwe)
+
+
+> **Note:** This demo video is hosted on **OneDrive** and may require a **Microsoft account** to view.rosoft account** to view.
+---
 
 ## 📁 Project Structure
 
@@ -56,12 +65,4 @@ projw/
 
 ---
 
-## 🎬 Preview the Website
 
-**Watch the full video demo here:** 👇
-
-### [🎥 Click Here to Watch the Demo Video](https://1drv.ms/v/c/d11a23ff8c55d39/IQB1A7fLvA-GQ5nkaQUOh97AYVqDOADZG5xOF3MzMThGXY?e=0dvwe)
-
-
-> **Note:** This demo video is hosted on **OneDrive** and may require a **Microsoft account** to view.rosoft account** to view.
----
