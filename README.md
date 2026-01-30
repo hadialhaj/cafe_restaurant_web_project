@@ -52,13 +52,16 @@ projw/
    ├── login.php
    ├── signup.php
    └── checkout.php
+
+
 ---
 
-## 🎥 **Preview the Website**
+## 🎬 Preview the Website
 
-A video walkthrough of the application's features is available:
+**Watch the full video demo here:** 👇
 
-[![Watch the Demo](https://img.shields.io/badge/▶️-Watch_Video_Demo-blue)](https://1drv.ms/v/c/d11a23ff8c55d39/IQB1A7fLvA-GQ5nkaQUOh97AYVqDOADZG5xOF3MzMThGXY?e=0dvwe)
+### [🎥 Click Here to Watch the Demo Video](https://1drv.ms/v/c/d11a23ff8c55d39/IQB1A7fLvA-GQ5nkaQUOh97AYVqDOADZG5xOF3MzMThGXY?e=0dvwe)
 
-*Click the button above to view the demo video on OneDrive.*
-*Note: This link may require a Microsoft account login.*
+
+> **Note:** This demo video is hosted on **OneDrive** and may require a **Microsoft account** to view.rosoft account** to view.
+---
