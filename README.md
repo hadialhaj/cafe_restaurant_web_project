@@ -52,6 +52,6 @@ projw/
    ├── login.php
    ├── signup.php
    └── checkout.php
-## 📺 __preview the website__
-video previewing the website:
-https://1drv.ms/v/c/cd11a23ff8c55d39/IQBlA7fLvA-GQ5nknaQUOh97AYvqDOADZG5xOF3MzMThGXY?e=Odvwve
+### 📺 **Preview the Website**
+A video walkthrough of the application's features is available:
+[View Video on OneDrive](https://1drv.ms/v/c/cd11a23ff8c55d39/IQBlA7fLvA-GQ5nknaQUOh97AYvqDOADZG5xOF3MzMThGXY?e=Odvwve)
