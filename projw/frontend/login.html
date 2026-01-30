@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <img src="../images/logo_Artboard-1.png" class="logo" alt="Shop Logo">  
+        <h2>Login</h2>
+
+        <form class="login" onsubmit="return validationl()" action="../backend/login.php" method="post">
+            <div class="form-group">
+                <input type="email" id="lemail" name="lemail" placeholder="Email">
+                <span id="lemailError" class="error"></span>
+            </div>
+            <div class="password-box">
+                <input type="password" id="lpassword" name="lpassword" placeholder="Password">
+                <span id="lpasswordError" class="error"></span>
+            </div>
+            <button type="submit">Submit</button>
+            <a onclick="window.location.href='register.html'">Create an account</a>
+        </form>
+         <hr style="margin: 20px 0;">
+
+        <div id="g_id_onload"
+             data-client_id="919553337092-6ln4pa52t229f09nn8d0224g6l4fbbjb.apps.googleusercontent.com"
+             data-login_uri="http://localhost/projw/projw/backend/googlelogin.php"
+             data-auto_prompt="false">
+        </div>
+
+        <div class="g_id_signin"
+             data-type="standard"
+             data-size="large"
+             data-theme="outline"
+             data-text="sign_in_with"
+             data-shape="rectangular"
+             data-logo_alignment="center">
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+      <script src="https://accounts.google.com/gsi/client" async defer></script>
+<script>
+        function handleCredentialResponse(response) {
+            // Send the credential to your backend
+            const form = document.createElement('form');
+            form.method = 'POST';
+            form.action = '../backend/googlelogin.php';
+            
+            const input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = 'credential';
+            input.value = response.credential;
+            
+            form.appendChild(input);
+            document.body.appendChild(form);
+            form.submit();
+        }
+    </script>
+
+    </body>
+</html>
+

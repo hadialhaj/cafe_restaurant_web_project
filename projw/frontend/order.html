@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Cristal - Menu</title>
+    <link rel="stylesheet" href="order.css">
+<script src="order.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <h1 class="cafe-name">CAFE CRISTAL</h1>
+            <div class="navbar-icons">
+               <a href="order.html" class="icon-btn active">
+    <img src="../images/menu.png" alt="Menu">
+</a>
+               <a href="contact.html" class="icon-btn">
+                    <img src="../images/info.png" alt="info">
+                </a>
+               <a href="cart.html" class="icon-btn">
+                    <img src="../images/cart.png" alt="checkout">
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+   
+
+    <main class="menu-main">
+        <section class="menu-section">
+            <h2 class="section-title">ESPRESSO & COFFEE DRINKS</h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="Americano" data-price="4.15">
+                        <span class="item-name">Americano</span>
+                        <span class="item-price">4.15</span>
+                    </div>
+                    <div class="menu-item" data-name="Cafe Latte" data-price="6.25">
+                        <span class="item-name">Cafe Latte</span>
+                        <span class="item-price">6.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Cappucino" data-price="6.25">
+                        <span class="item-name">Cappucino</span>
+                        <span class="item-price">6.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Flat White" data-price="6.25">
+                        <span class="item-name">Flat White</span>
+                        <span class="item-price">6.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Single Espresso" data-price="2.15">
+                        <span class="item-name">Single Espresso</span>
+                        <span class="item-price">2.15</span>
+                    </div>
+                </div>
+
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img src="../images/Espresso_f53a53fc-dc5f-42e0-bb07-c68979f6bb72_1024x1024.webp" class="menu-image" alt="Espresso coffee">
+                    </div>
+                    <div class="menu-items-right">
+                        <div class="menu-item-right" data-name="Double Espresso" data-price="4.15">
+                            <span class="item-name">Double Espresso</span>
+                            <span class="item-price">4.15</span>
+                        </div>
+                        <div class="menu-item-right" data-name="Mocha/White Mocha" data-price="7.10">
+                            <span class="item-name">Mocha/White Mocha</span>
+                            <span class="item-price">7.10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2 class="section-title">TEA LATTE'S AND HOT DRINKS</h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="Cristal London Fog" data-price="6.25">
+                        <span class="item-name">Cristal London Fog</span>
+                        <span class="item-price">6.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Classic London Fog" data-price="6.25">
+                        <span class="item-name">Classic London Fog</span>
+                        <span class="item-price">6.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Victorian Fog Latte" data-price="6.25">
+                        <span class="item-name">Victorian Fog Latte</span>
+                        <span class="item-price">6.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Lavender Tea Latte" data-price="6.25">
+                        <span class="item-name">Lavender Tea Latte</span>
+                        <span class="item-price">6.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Chai Tea Latte" data-price="6.25">
+                        <span class="item-name">Chai Tea Latte</span>
+                        <span class="item-price">6.25</span>
+                    </div>
+                </div>
+
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img alt src="../images/hot-drinks-menu-with-coffee-tea-hot-chocolate_1079150-145629.jpg" class="menu-image">
+                    </div>
+                    <div class="menu-items-right">
+                        <div class="menu-item-right" data-name="Matcha Latte" data-price="7.10">
+                            <span class="item-name">Matcha Latte</span>
+                            <span class="item-price">7.10</span>
+                        </div>
+                        <div class="menu-item-right" data-name="Hot Chocolate" data-price="5.50">
+                            <span class="item-name">Hot Chocolate</span>
+                            <span class="item-price">5.50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2 class="section-title">TEA | CAFFEINATED</h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="Earl Grey" data-price="4.65">
+                        <span class="item-name">Earl Grey</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Double Cream Earl Grey" data-price="4.65">
+                        <span class="item-name">Double Cream Earl Grey</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Black Tea" data-price="4.65">
+                        <span class="item-name">Black Tea</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Orange Pekoe" data-price="4.65">
+                        <span class="item-name">Orange Pekoe</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Green Tea" data-price="4.65">
+                        <span class="item-name">Green Tea</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Pina Colada Green Tea" data-price="4.65">
+                        <span class="item-name">Pina Colada Green Tea</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Cristal Lemonade" data-price="6.50">
+                        <span class="item-name">Cristal Lemonade</span>
+                        <span class="item-price">6.50</span>
+                    </div>
+                </div>
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img alt src="../images/beverage-blur-cup-370018-1200x875.jpg" class="menu-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+<section class="menu-section">
+            <h2 class="section-title">Tea | Herbal</h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="Bee Calm" data-price="4.65">
+                        <span class="item-name">Bee Calm</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Victorian Flag" data-price="4.65">
+                        <span class="item-name">Victorian Flag</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Lavender Chamomille" data-price="4.65">
+                        <span class="item-name">Lavender Chamomille</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Mint" data-price="4.65">
+                        <span class="item-name">Mint</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Peppermint" data-price="4.65">
+                        <span class="item-name">Peppermint</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                    <div class="menu-item" data-name="Herbal Earl Grey" data-price="4.65">
+                        <span class="item-name">Herbal Earl Grey</span>
+                        <span class="item-price">4.65</span>
+                    </div>
+                </div>
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img alt src="../images/tea-cup-with-several-dried-tea-leaves-and-flowers-1201496311-55f0a4dfdbc54605966a0a9ec2f40f3c.jpg" class="menu-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<section class="menu-section">
+            <h2 class="section-title">Cold Drinks</h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="Iced Americano" data-price="4.60">
+                        <span class="item-name">Iced Americano</span>
+                        <span class="item-price">4.60</span>
+                    </div>
+                    <div class="menu-item" data-name="Iced Latte" data-price="6.50">
+                        <span class="item-name">Victorian Flag</span>
+                        <span class="item-price">6.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Iced Flavoured Latte" data-price="7.20">
+                        <span class="item-name">Iced Flavoured Latte</span>
+                        <span class="item-price">7.20</span>
+                    </div>
+                    <div class="menu-item" data-name="Iced Mocha" data-price="7.30">
+                        <span class="item-name">Iced Mocha</span>
+                        <span class="item-price">7.30</span>
+                    </div>
+                    <div class="menu-item" data-name="Iced Chai Latte" data-price="6.60">
+                        <span class="item-name">Iced Chai Latte</span>
+                        <span class="item-price">6.60</span>
+                    </div>
+                    <div class="menu-item" data-name="Iced Matcha Latte" data-price="7.30">
+                        <span class="item-name">Herbal Earl Grey</span>
+                        <span class="item-price">7.30</span>
+                    </div>
+                     <div class="menu-item" data-name="Ice Tea" data-price="6.00">
+                        <span class="item-name">Ice Tea</span>
+                        <span class="item-price">6.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Cristal Lemonade" data-price="6.50">
+                        <span class="item-name">Herbal Earl Grey</span>
+                        <span class="item-price">6.50</span>
+                    </div>
+                </div>
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img alt src="../images/iced-drin.jpg" class="menu-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+<section class="menu-section">
+            <h2 class="section-title">Smoothies|Frappes</h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="Mango Peach" data-price="8.50">
+                        <span class="item-name">Mango Peach</span>
+                        <span class="item-price">8.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Strawberry" data-price="8.50">
+                        <span class="item-name">Strawberry</span>
+                        <span class="item-price">8.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Banana, Pina Colada" data-price="8.50">
+                        <span class="item-name">Banana, Pina Colada</span>
+                        <span class="item-price">8.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Frozen Hot Chocolate" data-price="8.50">
+                        <span class="item-name">Frozen Hot Chocolate</span>
+                        <span class="item-price">8.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Vanilla, Caramel" data-price="8.50">
+                        <span class="item-name">Vanilla, Caramel</span>
+                        <span class="item-price">8.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Hazelnut Mocha" data-price="8.50">
+                        <span class="item-name">Hazelnut Mocha</span>
+                        <span class="item-price">8.50</span>
+                    </div>
+               
+                </div>
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img alt src="../images/MixedBerrySmoothieLR-19-1024x1536.jpg" class="menu-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+<section class="menu-section">
+            <h2 class="section-title">OMELETES|Breakfast Sandwich</h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="Cheese" data-price="19.00">
+                        <span class="item-name">Cheese</span>
+                        <span class="item-price">19.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Spinach & Cheese" data-price="20.00">
+                        <span class="item-name">Spinach & Cheese</span>
+                        <span class="item-price">20.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Steak & Cheese" data-price="22.00">
+                        <span class="item-name">Steak & Cheese</span>
+                        <span class="item-price">22.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Vegerable" data-price="20.00">
+                        <span class="item-name">Vegerable</span>
+                        <span class="item-price">20.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Egg & Cheese" data-price="11.00">
+                        <span class="item-name">Egg & Cheese</span>
+                        <span class="item-price">11.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Turkey, Egg & Cheese" data-price="11.60">
+                        <span class="item-name">Turkey, Egg & Cheese</span>
+                        <span class="item-price">11.00</span>
+                    </div>
+                 <div class="menu-item" data-name="Pesto Egg & Cheese" data-price="11.60">
+                        <span class="item-name">Pesto Egg & Cheese</span>
+                        <span class="item-price">11.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Pesto, Turkey, Egg & Cheese" data-price="12.20">
+                        <span class="item-name">Pesto, Turkey, Egg & Cheese</span>
+                        <span class="item-price">12.20</span>
+                    </div>
+                </div>
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img alt src="../images/th.jpg" class="menu-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<section class="menu-section">
+            <h2 class="section-title">Paninis </h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="Chicken Italiano" data-price="20.50">
+                        <span class="item-name">Chicken Italiano</span>
+                        <span class="item-price">20.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Chipotle Chicken" data-price="20.50">
+                        <span class="item-name">Chipotle Chicken</span>
+                        <span class="item-price">20.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Chicken Pesto" data-price="20.50">
+                        <span class="item-name">Chicken Pesto</span>
+                        <span class="item-price">20.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Chicken Marinara" data-price="20.50">
+                        <span class="item-name">Chicken Marinara</span>
+                        <span class="item-price">20.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Curry Steak" data-price="22.25">
+                        <span class="item-name">Curry Steak</span>
+                        <span class="item-price">22.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Steak & Pepper" data-price="22.25">
+                        <span class="item-name">Steak & Pepper</span>
+                        <span class="item-price">22.25</span>
+                    </div>
+                 <div class="menu-item" data-name="Grilled Cheese" data-price="18.00">
+                        <span class="item-name">Grilled Cheese</span>
+                        <span class="item-price">18.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Pesto Vegetarian" data-price="19.00">
+                        <span class="item-name">Pesto Vegetarian</span>
+                        <span class="item-price">19.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Chipotle Vegetarian" data-price="19.00">
+                        <span class="item-name">Chipotle Vegetarian</span>
+                        <span class="item-price">19.00</span>
+                    </div>
+                </div>
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img alt src="../images/paninis.webp" class="menu-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2 class="section-title">Savoury Crepes</h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="Cheese Melt" data-price="17.00">
+                        <span class="item-name">Cheese Melt</span>
+                        <span class="item-price">17.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Chicken Pesto" data-price="20.25">
+                        <span class="item-name">Chicken Pesto</span>
+                        <span class="item-price">20.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Chicken Chipotle" data-price="20.25">
+                        <span class="item-name">Chicken Chipotle</span>
+                        <span class="item-price">20.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Chicken Italian Tuscan" data-price="20.25">
+                        <span class="item-name">Chicken Italian Tuscan</span>
+                        <span class="item-price">20.25</span>
+                    </div>
+                    <div class="menu-item" data-name="Morning Glory" data-price="21.75">
+                        <span class="item-name">Morning Glory</span>
+                        <span class="item-price">21.75</span>
+                    </div>
+                    <div class="menu-item" data-name="Steak Morning Glory" data-price="22.00">
+                        <span class="item-name">Steak Morning Glory</span>
+                        <span class="item-price">22.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Pesto & Mozzarella" data-price="18.50">
+                        <span class="item-name">Pesto & Mozzarella</span>
+                        <span class="item-price">18.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Egg Florentine" data-price="19.90">
+                        <span class="item-name">Egg Florentine</span>
+                        <span class="item-price">19.90</span>
+                    </div>
+                    <div class="menu-item" data-name="The Original" data-price="19.50">
+                        <span class="item-name">The Original</span>
+                        <span class="item-price">19.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Veggie" data-price="19.00">
+                        <span class="item-name">Veggie</span>
+                        <span class="item-price">19.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Plain Jane" data-price="9.00">
+                        <span class="item-name">Plain Jane</span>
+                        <span class="item-price">9.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Salad" data-price="8.99">
+                        <span class="item-name">Salad</span>
+                        <span class="item-price">8.99</span>
+                    </div>
+                    <div class="menu-item" data-name="Salad with Chicken" data-price="13.99">
+                        <span class="item-name">Salad with Chicken</span>
+                        <span class="item-price">13.99</span>
+                    </div>
+                </div>
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img alt src="../images/savory-crepes-2.jpg" class="menu-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2 class="section-title">Wraps & More</h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="Coconut Curry Chicken Wrap" data-price="15.70">
+                        <span class="item-name">Coconut Curry Chicken Wrap</span>
+                        <span class="item-price">15.70</span>
+                    </div>
+                    <div class="menu-item" data-name="Deluxe Chicken Wrap" data-price="15.70">
+                        <span class="item-name">Deluxe Chicken Wrap</span>
+                        <span class="item-price">15.70</span>
+                    </div>
+                    <div class="menu-item" data-name="Greek Chicken Wrap" data-price="15.70">
+                        <span class="item-name">Greek Chicken Wrap</span>
+                        <span class="item-price">15.70</span>
+                    </div>
+                    <div class="menu-item" data-name="Vegetarian Wrap" data-price="13.00">
+                        <span class="item-name">Vegetarian Wrap</span>
+                        <span class="item-price">13.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Chicken Alfredo Fettuccine" data-price="22.50">
+                        <span class="item-name">Chicken Alfredo Fettuccine</span>
+                        <span class="item-price">22.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Pesto Chicken Fettuccine" data-price="22.50">
+                        <span class="item-name">Pesto Chicken Fettuccine</span>
+                        <span class="item-price">22.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Vegetarian Pesto Fettuccine" data-price="21.00">
+                        <span class="item-name">Vegetarian Pesto Fettuccine</span>
+                        <span class="item-price">21.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Creamy Steak Fettuccine" data-price="25.50">
+                        <span class="item-name">Creamy Steak Fettuccine</span>
+                        <span class="item-price">25.50</span>
+                    </div>
+                    <div class="menu-item" data-name="Mexican Chicken Fries" data-price="15.70">
+                        <span class="item-name">Mexican Chicken Fries</span>
+                        <span class="item-price">15.70</span>
+                    </div>
+                    <div class="menu-item" data-name="Steak Fries" data-price="16.20">
+                        <span class="item-name">Steak Fries</span>
+                        <span class="item-price">16.20</span>
+                    </div>
+                    <div class="menu-item" data-name="Vegetarian Fries" data-price="14.00">
+                        <span class="item-name">Vegetarian Fries</span>
+                        <span class="item-price">14.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Strawberry Dream" data-price="15.99">
+                        <span class="item-name">Strawberry Dream</span>
+                        <span class="item-price">15.99</span>
+                    </div>
+                    <div class="menu-item" data-name="Caramelized Apple" data-price="15.99">
+                        <span class="item-name">Caramelized Apple</span>
+                        <span class="item-price">15.99</span>
+                    </div>
+                    <div class="menu-item" data-name="Crostachio" data-price="15.99">
+                        <span class="item-name">Crostachio</span>
+                        <span class="item-price">15.99</span>
+                    </div>
+                    <div class="menu-item" data-name="Buttery Bliss" data-price="15.99">
+                        <span class="item-name">Buttery Bliss</span>
+                        <span class="item-price">15.99</span>
+                    </div>
+                    <div class="menu-item" data-name="Banana Cookie Crunch" data-price="15.99">
+                        <span class="item-name">Banana Cookie Crunch</span>
+                        <span class="item-price">15.99</span>
+                    </div>
+                </div>
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img alt src="../images/l-intro-1665094704.jpg" class="menu-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2 class="section-title">Sweet Crepes </h2>
+            <div class="section-content">
+                <div class="menu-items-column">
+                    <div class="menu-item" data-name="French Toast Crepe" data-price="19.35">
+                        <span class="item-name">French Toast Crepe</span>
+                        <span class="item-price">19.35</span>
+                    </div>
+                    <div class="menu-item" data-name="Strawberry French Toast" data-price="20.15">
+                        <span class="item-name">Strawberry French Toast</span>
+                        <span class="item-price">20.15</span>
+                    </div>
+                    <div class="menu-item" data-name="Banana French Toast" data-price="20.15">
+                        <span class="item-name">Chicken Pesto</span>
+                        <span class="item-price">20.15</span>
+                    </div>
+                    <div class="menu-item" data-name="Ultimate French Toast" data-price="21.95">
+                        <span class="item-name">Ultimate French Toast</span>
+                        <span class="item-price">21.95</span>
+                    </div>
+                    <div class="menu-item" data-name="Chocolate Strawberry Banana" data-price="20.95">
+                        <span class="item-name">Chocolate Strawberry Banana</span>
+                        <span class="item-price">20.95</span>
+                    </div>
+                    <div class="menu-item" data-name="Chocolate Strawberry" data-price="19.35">
+                        <span class="item-name">Chocolate Strawberry</span>
+                        <span class="item-price">19.35</span>
+                    </div>
+                 <div class="menu-item" data-name="Chocolate Banana" data-price="19.35">
+                        <span class="item-name">Chocolate Banana</span>
+                        <span class="item-price">19.35</span>
+                    </div>
+                    <div class="menu-item" data-name="All Chocolate" data-price="17.00">
+                        <span class="item-name">All Chocolate</span>
+                        <span class="item-price">17.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Maple Strawberry Banana" data-price="20.95">
+                        <span class="item-name">Chipotle Vegetarian</span>
+                        <span class="item-price">20.95</span>
+                    </div>
+
+                    <div class="menu-item" data-name="Maple Banana" data-price="19.35">
+                        <span class="item-name">Maple Banana</span>
+                        <span class="item-price">19.35</span>
+                    </div>
+                 <div class="menu-item" data-name="Maple strawberry" data-price="19.35">
+                        <span class="item-name">Maple strawberry</span>
+                        <span class="item-price">19.35</span>
+                    </div>
+                    <div class="menu-item" data-name="Canadian Maple" data-price="17.00">
+                        <span class="item-name">Canadian Maple</span>
+                        <span class="item-price">17.00</span>
+                    </div>
+                    <div class="menu-item" data-name="Cinnamon Sugar" data-price="16.00">
+                        <span class="item-name">Cinnamon Sugar</span>
+                        <span class="item-price">16.00</span>
+                    </div>
+
+                </div>
+                <div class="menu-image-column">
+                    <div class="menu-image-container">
+                        <img alt src="../images/sweetcrepes.jpg" class="menu-image">
+                    </div>
+                     <div class="menu-items-right">
+                        <div class="menu-item-right" data-name="Cinnamon Bun" data-price="18.35">
+                            <span class="item-name">Cinnamon Bun</span>
+                            <span class="item-price">18.35</span>
+                        </div>
+                        <div class="menu-item-right" data-name="Caramelized Apple" data-price="19.90">
+                            <span class="item-name">Caramelized Apple</span>
+                            <span class="item-price">19.90</span>
+                        </div>
+                            <div class="menu-item-right" data-name="Biscoff Banana" data-price="18.35">
+                            <span class="item-name">Biscoff Banana</span>
+                            <span class="item-price">18.35</span>
+                        </div>
+                        <div class="menu-item-right" data-name="Lavender Blueberry" data-price="19.90">
+                            <span class="item-name">Lavender Blueberry</span>
+                            <span class="item-price">19.90</span>
+                        </div> <div class="menu-item-right" data-name="Strawberry Blossom" data-price="18.35">
+                            <span class="item-name">Strawberry Blossom</span>
+                            <span class="item-price">18.35</span>
+                        </div>
+                        <div class="menu-item-right" data-name="Pistachio Strawberry" data-price="19.90">
+                            <span class="item-name">Caramelized Apple</span>
+                            <span class="item-price">19.90</span>
+                        </div> <div class="menu-item-right" data-name="Banana Cream Pie" data-price="18.35">
+                            <span class="item-name">Banana Cream Pie</span>
+                            <span class="item-price">18.35</span>
+                        </div>
+                        <div class="menu-item-right" data-name="Fruit Explosion" data-price="19.90">
+                            <span class="item-name">Fruit Explosion</span>
+                            <span class="item-price">19.90</span>
+                        </div> <div class="menu-item-right" data-name="Boston Cream" data-price="18.35">
+                            <span class="item-name">Boston Cream</span>
+                            <span class="item-price">18.35</span>
+                        </div>
+                        <div class="menu-item-right" data-name="Strawberry & Cream" data-price="19.90">
+                            <span class="item-name">Strawberry & Cream</span>
+                            <span class="item-price">19.90</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cafe Cristal. All rights reserved.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+    
+</body>
+</html>

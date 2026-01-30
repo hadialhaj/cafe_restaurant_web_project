@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tablev.css">
+</head>
+<header class="header">
+    <div class="container">
+        <img src="../images/logo_Artboard-1.png" class="logo" alt="Coffee Logo">
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="shop.html">Our Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <div class="hero-bg" aria-hidden="true"></div>
+<div class="table">
+<form class="inpta">
+    <h1 class="th1">Table Reservation</h1>
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" placeholder="Full Name" required>
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+    <label for="guests">Number of Guests</label>
+    <select id="guests" name="g" required>
+    <option value="" disabled selected>Number of Guests</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10+">10+</option>
+</select>
+    <label for="reservationdate">Reservation Date</label>
+    <input type="date" id="reservationdate" required>
+    <label for="reservationtime">Reservation Time</label>
+    <input type="time" id="reservationtime" required>
+    <label for="requests">Special Requests</label>
+    <textarea id="requests" placeholder="Special Requests" cols="50" rows="25"></textarea>
+    <button type="submit">Reserve Table</button>
+
+</form>
+
+
+
+</div>
+
+
+
+</body>
+</html>

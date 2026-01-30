@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Cristal - Cart</title>
+    <link rel="stylesheet" href="cart.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+ <nav class="navbar">
+        <div class="navbar-content">
+            <h1 class="cafe-name">CAFE CRISTAL</h1>
+            <div class="navbar-icons">
+               <a href="order.html" class="icon-btn active">
+<img src="/images/menu.png" alt="Menu"></a>
+               <a href="contact.html" class="icon-btn">
+                    <img src="/images/info.png" alt="info">
+                </a>
+               <a href="cart.html" class="icon-btn">
+                    <img src="/images/cart.png" alt="checkout">
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+<body>
+    
+
+    <div class="container">
+        <div class="cart-grid">
+            <div class="cart-items">
+                <h2>Your Cart</h2>
+                <div id="cartItemsContainer">
+                    
+                </div>
+                
+                <div id="emptyCart" class="empty-cart" style="display: none;">
+                    <p>Your cart is empty</p>
+                    <a href="order.html" class="continue-shopping-btn">Continue Shopping</a>
+                </div>
+            </div>
+
+            <aside class="cart-summary">
+                <h3>Order Summary</h3>
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span class="summary-subtotal" id="summarySubtotal">$0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Tax</span>
+                    <span class="summary-tax" id="summaryTax">$0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span class="summary-shipping" id="summaryShipping">$0.00</span>
+                </div>
+                <div class="summary-total">
+                    <span>Total</span>
+                    <span class="summary-total-value" id="summaryTotal">$0.00</span>
+                </div>
+
+                <button class="checkout-btn" id="proceedCheckout">Proceed to Checkout</button>
+
+                <hr>
+
+                <h4>Contact & Payment</h4>
+                <form id="checkoutForm" class="checkoutForm" method="POST" action="../backend/checkout.php">
+                    <input type="text" name="cfirstName" placeholder="First name" required>
+                    <input type="text" name="clastName" placeholder="Last name" required>
+                    <input type="email" name="cemail" placeholder="Email" required>
+                    <input type="tel" name="cphone" placeholder="Phone number" required>
+                    <input type="text" name="caddress" placeholder="Shipping address" required>
+                    <input type="text" name="cardNumber" placeholder="Card number" required>
+                    <input type="text" name="cardName" placeholder="Name on card" required>
+                    <div style="display:flex;gap:8px;">
+                        <input type="text" name="expiry" placeholder="MM/YY" required>
+                        <input type="text" name="cvv" placeholder="CVV" required>
+                         
+                    </div>
+                     <input type="hidden" id="jsValidated" name="jsValidated" value="false">
+                    <button type="submit" class="checkout-btn">Pay Now</button>
+<input type="hidden" name="cart-items" id="cartData">                </form>
+            </aside>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+    
+</body>
+</html>

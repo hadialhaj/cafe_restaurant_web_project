@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5efe6, #e8dfd4);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #4a3f35;
+}
+
+.box {
+    background: #fdf8f3;
+    width: 380px;
+    padding: 30px 25px;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+    border: 1px solid #e2d4c5;
+}
+
+
+.logo {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #c9b9a7;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input:focus {
+    border-color: #b38a65;
+    outline: none;
+    box-shadow: 0 0 6px rgba(179,138,101,0.4);
+}
+
+.password-box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.show-btn {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+    font-size: 12px;
+    background: #d9c6b8;
+    color: #4a3f35;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.show-btn:hover {
+    background: #c9b3a3;
+}
+
+button[type="submit"] {
+    width: 90%;
+    padding: 12px;
+    background: #6a4e3e;
+    color: white;
+    border: none;
+    margin-top: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background: #523c30;
+}
+
+
+a {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #6a4e3e;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    color: #3b2a22;
+    text-decoration: underline;
+}
+.error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.error.hidden {
+    display: none !important;
+}

@@ -1,0 +1,20 @@
+{
+    "name": "hadi/backend",
+    "autoload": {
+        "psr-4": {
+            "Hadi\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hadi",
+            "email": "hadi@example.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "2.15.0"
+    },
+    "config": {
+        "process-timeout": 600
+    }
+}
